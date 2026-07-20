@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - TechKart</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">TechKart</div>
+
+        <div class="menu-toggle">
+
+            ☰
+
+        </div>
+
+        <button id="theme-toggle">
+
+            <span class="toggle-circle"></span>
+
+        </button>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Home
+
+                </a>
+            </li>
+
+            <li>
+                <a href="products.html">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    Products
+
+                </a>
+            </li>
+
+            <li>
+                <a href="cart.html">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Cart
+
+                    <span id="cart-count">
+
+                        0
+
+                    </span>
+
+                </a>
+            </li>
+
+            <li>
+                <a href="wishlist.html">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    Wishlist
+
+                </a>
+            </li>
+
+            <li>
+                <a href="profile.html">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    Profile
+
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <!-- PAGE TITLE -->
+
+    <section class="featured">
+
+        <h2>Our Products</h2>
+
+        <!-- SEARCH BAR -->
+
+        <div class="search-box">
+
+            <input type="text" id="searchInput" placeholder="Search products...">
+
+        </div>
+
+        <!-- CATEGORY FILTER -->
+
+        <div class="category-filter">
+
+            <button class="filter-btn active" data-category="all">
+
+                All
+
+            </button>
+
+            <button class="filter-btn" data-category="electronics">
+
+                Electronics
+
+            </button>
+
+            <button class="filter-btn" data-category="accessories">
+
+                Accessories
+
+            </button>
+
+            <button class="filter-btn" data-category="fashion">
+
+                Fashion
+
+            </button>
+
+        </div>
+
+        <!-- PRODUCTS -->
+
+        <div class="product-container" id="productContainer">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product-card clickable-card" data-id="1" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1160&auto=format&fit=crop">
+
+                <h3>iPhone 15</h3>
+
+                <p>₹79,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product-card clickable-card" data-id="2" data-category="fashion">
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1170&auto=format&fit=crop">
+
+                <h3>Nike</h3>
+
+                <p>₹3,499</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 3 -->
+
+            <div class="product-card clickable-card" data-id="3" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1170&auto=format&fit=crop">
+
+                <h3>Headphones</h3>
+
+                <p>₹4,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 4 -->
+
+            <div class="product-card clickable-card" data-id="4" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop">
+
+                <h3>Smart Watch</h3>
+
+                <p>₹6,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <span>(5.0)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 5 -->
+
+            <div class="product-card clickable-card" data-id="5" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1631749352438-7d576312185d?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Gaming Mouse</h3>
+
+                <p>₹1,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <span>(4.8)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 6 -->
+
+            <div class="product-card clickable-card" data-id="6" data-category="electronics">
+
+                <img
+                    src="https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Keyboard</h3>
+
+                <p>₹2,499</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.2)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PRODUCT 7 -->
+
+            <div class="product-card clickable-card" data-id="7" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1622473590925-e3616c0a41bf?q=80&w=692&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Washing Machine</h3>
+
+                <p>₹12,499</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 8 -->
+
+            <div class="product-card clickable-card" data-id="8" data-category="accessories">
+
+                <img src="https://images.unsplash.com/photo-1567473810954-507d59716c25?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1biUyMGdsYXNzfGVufDB8fDB8fHww">
+
+                <h3>Sun Glass</h3>
+
+                <p>₹1,499</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 9-->
+
+            <div class="product-card clickable-card" data-id="9" data-category="accessories">
+
+                <img src="https://miraggiolife.com/cdn/shop/files/bella-crossbody-bag-383198.jpg?v=1752831242&width=2048">
+
+                <h3>Purse</h3>
+
+                <p>₹3,499</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+             <!-- PRODUCT 10-->
+
+            <div class="product-card clickable-card" data-id="10" data-category="accessories">
+
+                <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnJhY2VsZXR8ZW58MHx8MHx8fDA%3D">
+
+                <h3>Bracelet</h3>
+
+                <p>₹1,699</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            
+             <!-- PRODUCT 11-->
+
+            <div class="product-card clickable-card" data-id="11" data-category="fashion">
+
+                <img src="https://images.unsplash.com/photo-1626298038175-e9f383124e1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHVtYSUyMHNob2VzfGVufDB8fDB8fHww">
+
+                <h3>Puma</h3>
+
+                <p>₹2,000</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            
+             <!-- PRODUCT 12-->
+
+            <div class="product-card clickable-card" data-id="12" data-category="fashion">
+
+                <img src="data:image/jpeg;base64,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">
+
+                <h3>Kasturi Earing</h3>
+
+                <p>₹699</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+            
+             <!-- PRODUCT 13-->
+
+            <div class="product-card clickable-card" data-id="13" data-category="fashion">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbE8_DF6XUiQXbkXDGZkpPX1maZeoAcUTrIQ&s">
+
+                <h3>Slippers</h3>
+
+                <p>₹899</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+             <!-- PRODUCT 14-->
+
+            <div class="product-card clickable-card" data-id="14" data-category="accessories">
+
+                <img src="https://makeupocean.com/wp-content/uploads/2023/10/lipstick-1-1.jpg">
+
+                <h3>Mars Matte Lipstick</h3>
+
+                <p>₹934</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.3)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+                        🛒 Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCT 15 -->
+
+            <div class="product-card clickable-card" data-id="15" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>iPad Air</h3>
+
+                <p>₹61,699</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.2)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 16 -->
+
+            <div class="product-card clickable-card" data-id="16" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1651241680016-cc9e407e7dc3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>MacBook Pro</h3>
+
+                <p>₹2,247,400</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 17 -->
+
+            <div class="product-card clickable-card" data-id="17" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1495707902641-75cac588d2e9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>DSLR Camera</h3>
+
+                <p>₹1,9,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <span>(5.0)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 18 -->
+
+            <div class="product-card clickable-card" data-id="18" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1529359744902-86b2ab9edaea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Bluetooth Speaker</h3>
+
+                <p>₹32,900</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.8)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 19 -->
+
+            <div class="product-card clickable-card" data-id="19" data-category="electronics">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551645120-d70bfe84c826?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Monitor</h3>
+
+                <p>₹25,490</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.6)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 20 -->
+
+            <div class="product-card clickable-card" data-id="20" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=1289&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>AirPods Pro</h3>
+
+                <p>₹23,990</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.7)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 21 -->
+
+            <div class="product-card clickable-card" data-id="21" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1706275399494-fb26bbc5da63?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Power Bank</h3>
+
+                <p>₹5,699</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.8)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 22 -->
+
+            <div class="product-card clickable-card" data-id="22" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1604005366359-2f8f2a044336?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>USB-C Hub</h3>
+
+                <p>₹18,999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 23 -->
+
+            <div class="product-card clickable-card" data-id="23" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1553556135-009e5858adce?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Phone Stand</h3>
+
+                <p>₹899</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.8)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 24 -->
+
+            <div class="product-card clickable-card" data-id="24" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1618008658949-dfd52f2caa75?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Smart Lamp</h3>
+
+                <p>₹999</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 25 -->
+
+            <div class="product-card clickable-card" data-id="25" data-category="accessories">
+
+                <img
+                    src="https://images.unsplash.com/photo-1591290619618-904f6dd935e3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+                <h3>Wireless Charger</h3>
+
+                <p>₹949</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.9)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 26 -->
+
+            <div class="product-card clickable-card" data-id="26" data-category="fashion">
+
+                <img
+                    src="https://m.media-amazon.com/images/I/517xfGCpmRL._AC_SX679_.jpg">
+
+                <h3>Nike Hoodie</h3>
+
+                <p>₹3,495</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 27 -->
+
+            <div class="product-card clickable-card" data-id="27" data-category="fashion">
+
+                <img
+                    src="https://m.media-amazon.com/images/I/51IK2l2msBL._SX679_.jpg">
+
+                <h3>Smart Glasses</h3>
+
+                <p>₹38,849</p>
+
+                <div class="rating">
+
+                    ⭐⭐⭐⭐☆
+
+                    <span>(4.5)</span>
+
+                </div>
+
+                <div class="product-buttons">
+
+                    <button class="wishlist-btn">
+                        ❤️
+                    </button>
+
+                    <button class="add-cart">
+
+                        🛒 Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 TechKart. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- PRODUCT MODAL -->
+
+    <div class="modal" id="productModal">
+
+        <div class="modal-content">
+
+            <span class="close-btn">&times;</span>
+
+            <div class="modal-image">
+
+                <img id="modalImg">
+
+            </div>
+
+            <div class="modal-details">
+
+                <h2 id="modalTitle"></h2>
+
+                <p class="modal-price" id="modalPrice"></p>
+
+                <p class="modal-description">
+                    Premium quality product with modern design and
+                    excellent performance for everyday use.
+                </p>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <button class="btn modal-cart-btn">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TOAST -->
+
+    <div class="toast" id="toast">
+
+        Product Added To Cart ✅
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

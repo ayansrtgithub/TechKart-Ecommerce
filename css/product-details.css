@@ -1,0 +1,63 @@
+.details-section {
+
+    padding: 80px 8%;
+
+}
+
+.details-container {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 50px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+.details-image img {
+
+    width: 100%;
+
+    border-radius: 20px;
+
+}
+
+.details-info h1 {
+
+    margin-bottom: 20px;
+
+}
+
+.details-info h2 {
+
+    color: #2563eb;
+
+    margin-bottom: 20px;
+
+}
+
+.rating {
+
+    font-size: 24px;
+
+    margin-bottom: 25px;
+
+}
+
+.details-info p {
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+
+}

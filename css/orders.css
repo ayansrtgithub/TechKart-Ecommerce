@@ -1,0 +1,122 @@
+#orders-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+
+    margin-top: 40px;
+
+}
+
+.order-card {
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.order-info h3 {
+
+    margin-bottom: 10px;
+
+}
+
+.order-status {
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    font-weight: 600;
+
+}
+
+.delivered {
+
+    background: #dcfce7;
+
+    color: #15803d;
+
+}
+
+.pending {
+
+    background: #fef3c7;
+
+    color: #b45309;
+
+}
+
+/* ===============================
+ORDER STATUS COLORS
+=============================== */
+
+.order-status {
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+}
+
+
+/* Pending */
+
+.pending {
+
+    background: #fef3c7;
+
+    color: #b45309;
+
+}
+
+
+/* Processing */
+
+.processing {
+
+    background: #dbeafe;
+
+    color: #1d4ed8;
+
+}
+
+
+/* Shipped */
+
+.shipped {
+
+    background: #ddd6fe;
+
+    color: #6d28d9;
+
+}
+
+
+/* Delivered */
+
+.delivered {
+
+    background: #d1fae5;
+
+    color: #047857;
+
+}

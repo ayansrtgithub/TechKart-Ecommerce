@@ -1,0 +1,61 @@
+.admin-section {
+
+    padding: 80px 8%;
+
+    min-height: 80vh;
+
+}
+
+.dashboard-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit,
+            minmax(250px, 1fr));
+
+    gap: 30px;
+
+    margin-top: 40px;
+
+}
+
+.dashboard-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+
+}
+
+.dashboard-card:hover {
+
+    transform:
+        translateY(-10px);
+
+}
+
+.dashboard-card h3 {
+
+    margin-bottom: 20px;
+
+}
+
+.dashboard-card p {
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+    color: #2563eb;
+
+}
